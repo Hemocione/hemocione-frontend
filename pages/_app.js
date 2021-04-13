@@ -1,10 +1,9 @@
 import {
   Layout
-}
-  from '../components'
+} from '../components'
 import '../styles/globals.css'
 
-function MyApp({ Component, pageProps }) {
+const MyApp = ({ Component, pageProps }) => {
   return (
     <Layout>
       <Component {...pageProps} />
