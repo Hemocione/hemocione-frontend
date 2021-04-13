@@ -1,7 +1,7 @@
 import {
     Footer,
     Navbar
-} from "../components";
+} from "..";
 
 const Layout = ({ children }) => {
     return (
