@@ -7,3 +7,10 @@
   letter-spacing: 0;
   text-align: center;
 }
+
+.menuItem {
+  display: inline;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}

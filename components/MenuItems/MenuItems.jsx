@@ -1,30 +1,14 @@
 import Link from 'next/link'
-import styles from './MenuItems.module.css'
+import { MenuItem } from '..'
 
 const MenuItems = () => {
   return (
-    <ul>
-      <li>
-        <Link href='/' >
-          <a className={styles.menuText}>Home</a>
-        </Link>
-      </li>
-      <li>
-        <Link href='/who' >
-          <a className={styles.menuText}>Quem Somos</a>
-        </Link>
-      </li>
-      <li>
-        <Link href='/where' >
-          <a className={styles.menuText}>Onde e Quando</a>
-        </Link>
-      </li>
-      <li>
-        <Link href='/faq' >
-          <a className={styles.menuText}>Dúvidas Frequentes</a>
-        </Link>
-      </li>
-    </ul>
+    <div>
+      <MenuItem link='/' text='Home' />
+      <MenuItem link='/who' text='Quem Somos' />
+      <MenuItem link='/where' text='Onde e Quando' />
+      <MenuItem link='/faq' text='Dúvidas Frequentes' />
+    </div>
   );
 }
 
