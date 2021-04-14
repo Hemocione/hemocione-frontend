@@ -1,0 +1,15 @@
+.header {
+  z-index: 1;
+  position: fixed;
+  top: 0;
+  height: 105px;
+  width: 1920px;
+  opacity: 0.78;
+  background-color: #000000
+}
+
+.headerTitle {
+  margin-top: 37.5px;
+  margin-bottom: 37.5px;
+  margin-left: 213px;
+}
