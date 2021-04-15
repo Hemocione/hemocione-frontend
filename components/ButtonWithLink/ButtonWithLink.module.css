@@ -1,0 +1,14 @@
+.button {
+  height: 60%;
+  background-color: #91151A;
+  opacity: 1;
+  font-size: 1em;
+  width: 8em;
+  color: #FFFFFF;
+  border: none;
+  align-self: center;
+}
+
+.button:hover {
+  background-color: #D1151A;
+}

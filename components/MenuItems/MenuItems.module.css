@@ -1,7 +1,6 @@
 .menu {
     display: flex;
     position: relative;
-    margin-left: clamp(2.5%, 5%, 10%);
     padding: 5px;
     width: 30%;
     align-items: center;

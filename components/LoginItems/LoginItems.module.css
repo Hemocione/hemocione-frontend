@@ -1,0 +1,9 @@
+.loginItemsContainer {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  padding: 5px;
+  width: 20%;
+  align-items: center;
+  text-align: center;
+}

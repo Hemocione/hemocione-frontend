@@ -7,10 +7,11 @@
   opacity: 0.78;
   background-color: #000000;
   display: flex;
+  justify-content: space-around;
 }
 
 .headerTitle {
   margin-top: 37.5px;
   margin-bottom: 37.5px;
-  margin-left: 11%;
+  opacity: 1;
 }
