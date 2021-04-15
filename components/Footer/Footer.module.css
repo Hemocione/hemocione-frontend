@@ -1,0 +1,49 @@
+.footerContentContainer {
+  background-color: #CD1419;
+  position: relative;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-bottom: 30px;
+}
+
+.footerContainer {
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.hills {
+  background-image: url("/footerBackground.svg");
+  width: 100%;
+  height: clamp(100px, 205px, 300px);
+  background-size: cover;
+}
+
+.footerRectangle {
+  display: flex;
+  color: #FFFFFF;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #91151A;
+  font-size: 0.7em;
+  height: 30px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.vercelContainer {
+  align-items: center;
+  display: flex;
+  height: 50%;
+}
+
+.vercelLogo {
+  height: 100%;
+}
+
+.poweredBy {
+  padding-right: 5px;
+}

@@ -1,0 +1,10 @@
+.text {
+  color: #FFFFFF;
+  margin-top: 0px;
+}
+
+.contactsContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
