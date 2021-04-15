@@ -3,7 +3,7 @@ import styles from './MenuItem.module.css'
 
 const MenuItem = ({link, text}) => {
   return (
-    <li className={styles.MenuItem}>
+    <li className={styles.menuItem}>
       <Link href={link}>
         <a className={styles.menuText}>{text}</a>
       </Link>

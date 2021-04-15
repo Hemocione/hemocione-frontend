@@ -3,13 +3,14 @@
   position: fixed;
   top: 0;
   height: 105px;
-  width: 1920px;
+  width: 100%;
   opacity: 0.78;
-  background-color: #000000
+  background-color: #000000;
+  display: flex;
 }
 
 .headerTitle {
   margin-top: 37.5px;
   margin-bottom: 37.5px;
-  margin-left: 213px;
+  margin-left: 11%;
 }
