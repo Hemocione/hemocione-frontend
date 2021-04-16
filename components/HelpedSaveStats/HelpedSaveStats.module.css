@@ -9,11 +9,11 @@
   display: flex;
   flex-wrap: wrap;
   margin: 0;
-  padding: 0;
+  padding-top: 60px;
+  padding-bottom: 60px;
   justify-content: space-evenly;
   align-items: center;
   width: 80%;
-  height: 514px;
   text-align: center;
   color: #FFFFFF;
 }
