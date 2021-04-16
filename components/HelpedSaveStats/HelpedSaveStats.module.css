@@ -1,0 +1,19 @@
+.backgroundContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #C6171E;
+}
+
+.helpedSaveContainer {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 80%;
+  height: 514px;
+  text-align: center;
+  color: #FFFFFF;
+}

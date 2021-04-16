@@ -1,0 +1,11 @@
+.statContainer {
+  flex: 0 0 33.333333%;
+}
+
+.number {
+  font-size: 96px;
+}
+
+.text {
+  font-size: 36px;
+}
