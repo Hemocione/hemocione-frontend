@@ -1,0 +1,11 @@
+.banner {
+  width: 100%;
+  height: 46.5vw;
+  background-position: center;
+  background-size: cover;
+}
+
+.bannerInfoContainer {
+  display: flex;
+  flex-direction: column;
+}
