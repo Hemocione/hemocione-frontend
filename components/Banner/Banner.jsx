@@ -1,6 +1,6 @@
 import styles from './Banner.module.css'
 import {
-  ArrowButtonWithLink
+  KnowMoreButton
 } from '..'
 
 const Banner = ({img, whiteTitle, redTitle, headliner, text}) => {
@@ -20,7 +20,7 @@ const Banner = ({img, whiteTitle, redTitle, headliner, text}) => {
           <p className={styles.detailsText}>
             {text}
           </p>
-          <ArrowButtonWithLink link="#" text="Saiba Mais" className={styles.knowMore} />
+          <KnowMoreButton link="#" text="Saiba Mais" />
         </div>
       </div>
     </div>

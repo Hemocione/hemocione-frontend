@@ -1,7 +1,7 @@
 import Link from 'next/link'
-import styles from './ArrowButtonWithLink.module.css'
+import styles from './KnowMoreButton.module.css'
 
-const ArrowButtonWithLink = ({link, text}) => {
+const KnowMoreButton = ({link, text}) => {
   return (
     <Link href={link}>
       <button className={styles.button}>
@@ -12,4 +12,4 @@ const ArrowButtonWithLink = ({link, text}) => {
   );
 }
 
-export default ArrowButtonWithLink
+export default KnowMoreButton
