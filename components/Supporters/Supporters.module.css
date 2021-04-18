@@ -10,6 +10,7 @@
 .headContainer {
   display: flex;
   justify-content: space-around;
+  margin-bottom: 2em;
 }
 
 .supportersTitle {
@@ -26,4 +27,17 @@
   color: #353535;
   font-size: 1.5em;
   margin-right: 1em;
+}
+
+.supportersImagesContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.supporter {
+  flex: 0 0 33.333333%;
+  padding: 20px;
+  width: 150px;
+  height: 150px
 }
