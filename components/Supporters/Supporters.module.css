@@ -1,0 +1,29 @@
+.supportersContainer {
+  padding-top: 3em;
+  padding-bottom: 3em;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: #FFFFFF;
+}
+
+.headContainer {
+  display: flex;
+  justify-content: space-around;
+}
+
+.supportersTitle {
+  color: #353535;
+  font-size: 3em;
+}
+
+.githubHelp {
+  display: inline-flex;
+  align-items: center;
+}
+
+.helpText {
+  color: #353535;
+  font-size: 1.5em;
+  margin-right: 1em;
+}
