@@ -6,23 +6,28 @@ import {
 var supporters = [
   {
     src: "/supporters/papito.svg",
-    description: "Vercel Logo"
+    description: "Vercel Logo",
+    key: "papito"
   },
   {
     src: "/supporters/papito2.svg",
-    description: "Vercel Logo"
+    description: "papit 2 Logo",
+    key: "papito2"
   },
   {
     src: "/supporters/papito3.svg",
-    description: "Vercel Logo"
+    description: "op Logo",
+    key: "papito3"
   },
   {
     src: "/supporters/parangole.svg",
-    description: "Vercel Logo"
+    description: "pip Logo",
+    key: "parangole"
   },
   {
     src: "/supporters/parangs.svg",
-    description: "Vercel Logo"
+    description: "pap Logo",
+    key: "parangs"
   },
 ]
 
@@ -41,8 +46,8 @@ const Supporters = () => {
         </div>
       </div>
       <div className={styles.supportersImagesContainer}>
-        {supporters.map(({src, description, ...rest}) => (
-          <img src={src} alt={description} className={styles.supporter} />
+        {supporters.map(({src, description, key, ...rest}) => (
+          <img src={src} alt={description} key={key} className={styles.supporter} />
         ))}
       </div>
     </div>
