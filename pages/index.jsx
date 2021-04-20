@@ -4,7 +4,8 @@ import {
   HelpedSave,
   Banner,
   Supporters,
-  WhereAndWhen
+  WhereAndWhen,
+  SpeakDonator
 } from '../components'
 
 const Home = () => {
@@ -15,6 +16,7 @@ const Home = () => {
 " />
       <HelpedSave />
       <WhereAndWhen />
+      <SpeakDonator />
       <Supporters />
     </div>
   )
