@@ -70,7 +70,10 @@
 }
 
 .divider {
-  border-width: 100%;
+  color: rgba(53, 53, 53, 1);
+  opacity: 0.5;
+  height: 1px;
+  width: 100%;
 }
 
 .subtitle {

@@ -63,9 +63,11 @@ const WhereAndWhen = () => {
            onClick={ () => setEventIndex(eventIndex + 1) } />}
         </div>
         <div className={styles.eventDetailsContainer}>
+          <hr className={styles.divider} />
           <h3 className={styles.location}>
             {nextEvents[eventIndex].location}
           </h3>
+          <hr className={styles.divider} />
           <h4 className={styles.subtitle}>
             {nextEvents[eventIndex].address}
           </h4>
@@ -75,6 +77,7 @@ const WhereAndWhen = () => {
           <p>
             {nextEvents[eventIndex].text}
           </p>
+          <hr className={styles.divider} />
         </div>
       </div>
     </div>
