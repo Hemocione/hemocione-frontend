@@ -3,14 +3,79 @@
   flex-direction: column;
   width: 100%;
   margin-top: 2em;
-  margin-left: 4em;
 }
 
 .title {
+  margin-left: 50px;
   font-size: 4.5em;
   color: #353535;
 }
 
 .red {
   color: #EC1C24;
+}
+
+.day {
+  color: #353535;
+  font-size: 10em;
+  font-weight: bold;
+  text-align: center;
+  margin: 0;
+}
+
+.month {
+  color: #353535;
+  text-align: center;
+  font-size: 3.5em;
+  font-weight: bold;
+  margin: 0;
+}
+
+.location {
+  width: 100%;
+  color: #EC1C24;
+  font-size: 3.5em;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+}
+
+.contentContainer {
+  margin-top: 5em;
+  margin-bottom: 5em;
+  align-items: center;
+  justify-content: space-evenly;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.eventControlContainer {
+  margin-bottom: 2em;
+  flex: 0 0 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.eventDetailsContainer {
+  padding-right: 10%;
+  margin-bottom: 2em;
+  flex: 0 0 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.arrow:hover {
+  cursor: pointer;
+}
+
+.divider {
+  border-width: 100%;
+}
+
+.subtitle {
+  color: #353535;
+  font-size: 2.5em;
+  padding-bottom: 0.5em;
+  padding-top: 0.5em;
 }
