@@ -6,8 +6,15 @@
   padding: 60px;
   justify-content: center;
   align-items: center;
-  font-size: 65px;
+  font-size: 4em;
   text-align: center;
   color: #FFFFFF;
   font-weight: bolder;
+}
+
+@media screen and (max-width: 768px) {
+  .helpedSaveHeader {
+    font-size: 3em;
+    padding: 45px;
+  }
 }
