@@ -45,3 +45,44 @@
   margin-right: 1px;
   margin-bottom: 0;
 }
+
+@media screen and (max-width: 768px) and (orientation: portrait) {
+  .banner {
+    height: 50vh;
+    background-position: right;
+  }
+
+  .detailsText {
+    display: None;
+  }
+
+  .title {
+    font-size: 2em;
+  }
+
+  .headliner {
+    font-size: 1em;
+  }
+
+  .bannerInfoContainer {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 768px) and (orientation: landscape) {
+  .detailsText {
+    display: None;
+  }
+
+  .title {
+    font-size: 2em;
+  }
+
+  .headliner {
+    font-size: 1em;
+  }
+
+  .bannerInfoContainer {
+    padding-top: 4em;
+  }
+}
