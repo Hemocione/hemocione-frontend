@@ -1,8 +1,9 @@
+import styles from './FooterMenu.module.css'
 import { MenuItem } from '..'
 
 const FooterMenu = () => {
   return (
-    <ul>
+    <ul className={styles.container}>
       <MenuItem link='/' text='Home' />
       <MenuItem link='/who' text='Quem Somos' />
       <MenuItem link='/where' text='Onde e Quando' />
