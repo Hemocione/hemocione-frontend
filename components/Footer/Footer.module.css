@@ -6,6 +6,7 @@
   align-items: center;
   justify-content: space-around;
   padding-bottom: 30px;
+  flex-wrap: wrap;
 }
 
 .footerContainer {
@@ -14,10 +15,15 @@
   flex-direction: column;
 }
 
+.footerLeftContainer {
+  display: flex;
+  justify-content: space-around;
+}
+
 .hills {
   background-image: url("/footerBackground.svg");
   width: 100%;
-  height: clamp(100px, 205px, 300px);
+  height: 205px;
   background-size: cover;
 }
 
@@ -25,6 +31,7 @@
   display: flex;
   color: #FFFFFF;
   justify-content: space-around;
+  text-align: center;
   align-items: center;
   background-color: #91151A;
   font-size: 0.7em;
@@ -46,4 +53,20 @@
 
 .poweredBy {
   padding-right: 5px;
+}
+
+@media screen and (max-width: 768px) and (orientation: landscape) {
+  .hills {
+      height: 100px;
+  }
+}
+
+@media screen and (max-width: 768px) and (orientation: portrait) {
+  .hills {
+      height: 50px;
+  }
+
+  .hemoLogo {
+    width: 30%;
+  }
 }

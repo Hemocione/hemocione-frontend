@@ -1,9 +1,12 @@
 .text {
   color: #FFFFFF;
+  font-size: 1em;
   margin-top: 0px;
+  padding-bottom: 0.1em;
 }
 
 .contactsContainer {
+  padding-top: 1em;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
