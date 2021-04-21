@@ -5,7 +5,8 @@ import {
   Banner,
   Supporters,
   WhereAndWhen,
-  SpeakDonator
+  SpeakDonator,
+  Hemocionews
 } from '../components'
 
 const Home = () => {
@@ -17,6 +18,7 @@ const Home = () => {
       <HelpedSave />
       <WhereAndWhen />
       <SpeakDonator />
+      <Hemocionews />
       <Supporters />
     </div>
   )
