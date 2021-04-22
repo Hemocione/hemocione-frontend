@@ -1,4 +1,5 @@
 .newsContainer {
+  max-width: 90%;
   flex: 0 0 20%;
   display: flex;
   flex-direction: column;
