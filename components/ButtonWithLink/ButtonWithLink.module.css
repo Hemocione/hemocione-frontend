@@ -1,0 +1,15 @@
+.button {
+  height: 3em;
+  background-color: #91151A;
+  font-size: 1em;
+  width: 8em;
+  color: #FFFFFF;
+  border: none;
+  align-self: center;
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.42, 0, 0.58, 1);
+}
+
+.button:hover {
+  background-color: #D1151A;
+}

@@ -1,0 +1,88 @@
+.banner {
+  width: 100%;
+  height: 46.5vw;
+  background-position: center;
+  background-size: cover;
+  color: #FFFFFF;
+}
+
+.bannerInfoContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: inherit;
+  width: 40%;
+  margin-left: 10%;
+  padding-top: 3em;
+}
+
+.title {
+  font-size: 4.5em;
+}
+
+.red {
+  color: #EC1C24;
+}
+
+.headliner {
+  margin-top: 1px;
+  margin-bottom: 1px;
+  background-color: #EC1C24;
+  padding: 15px;
+  font-size: 3em;
+}
+
+.detailsContainer {
+  display: flex;
+}
+
+.detailsText {
+  width: 70%;
+  font-size: 1em;
+  background-color: #EC1C24;
+  padding: 15px;
+  margin-top: 1px;
+  margin-right: 1px;
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 768px) and (orientation: portrait) {
+  .banner {
+    height: 50vh;
+    background-position: right;
+  }
+
+  .detailsText {
+    display: None;
+  }
+
+  .title {
+    font-size: 2em;
+  }
+
+  .headliner {
+    font-size: 1em;
+  }
+
+  .bannerInfoContainer {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 768px) and (orientation: landscape) {
+  .detailsText {
+    display: None;
+  }
+
+  .title {
+    font-size: 2em;
+  }
+
+  .headliner {
+    font-size: 1em;
+  }
+
+  .bannerInfoContainer {
+    padding-top: 4em;
+  }
+}

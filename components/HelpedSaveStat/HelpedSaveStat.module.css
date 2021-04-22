@@ -1,0 +1,22 @@
+.statContainer {
+  flex: 0 0 33.333333%;
+  padding: 5px
+}
+
+.number {
+  font-size: 6em;
+}
+
+.text {
+  font-size: 2em;
+}
+
+@media screen and (max-width: 768px) and (orientation: portrait) {
+  .number {
+    font-size: 3em;
+  }
+
+  .text {
+    font-size: 1em;
+  }
+}

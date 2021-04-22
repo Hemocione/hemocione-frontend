@@ -1,0 +1,38 @@
+.button {
+  text-align: center;
+  display: flex;
+  background-color: #91151A;
+  font-size: 1em;
+  color: #FFFFFF;
+  border: none;
+  margin-left: 1px;
+  margin-top: 1px;
+  align-self: stretch;
+  width: 30%;
+  align-items: center;
+  justify-content: space-around;
+  transition: all 0.3s cubic-bezier(0.42, 0, 0.58, 1);
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #D1151A;
+}
+
+.arrow {
+  height: 2em;
+  width: 2em;
+}
+
+@media screen and (max-width: 768px) {
+  .button {
+    margin-left: 0;
+    width: 100%;
+    height: 2em;
+    font-size: 0.9em;
+  }
+
+  .arrow {
+    height: 1em;
+  }
+}
