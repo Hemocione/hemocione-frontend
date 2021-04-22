@@ -8,8 +8,10 @@ const Footer = () => {
     <footer className={styles.footerContainer}>
       <div className={styles.hills} />
       <div className={styles.footerContentContainer}>
-        <img src="/whiteLogo.svg" alt="Hemocione White Logo" className={styles.hemoLogo} />
-        <FooterMenu />
+        <div className={styles.footerLeftContainer}>
+          <img src="/whiteLogo.svg" alt="Hemocione White Logo" className={styles.hemoLogo} />
+          <FooterMenu />
+        </div>
         <FooterContacts />
       </div>
       <div className={styles.footerRectangle}>
@@ -18,7 +20,7 @@ const Footer = () => {
           <p className={styles.poweredBy}>Powered by</p>
           <img src='/vercel.svg' alt='Vercel Logo' className={styles.vercelLogo}/>
         </div>
-        <p>Web Design and Development by Hemocione</p>
+        <p>Created by Hemocione</p>
       </div>
     </footer>
   );
