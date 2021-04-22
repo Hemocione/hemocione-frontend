@@ -39,3 +39,10 @@
   justify-content: center;
   margin-bottom: 3em;
 }
+
+@media screen and (max-width: 768px) {
+  .title {
+    text-align: center;
+    margin-left: 0;
+  }
+}
