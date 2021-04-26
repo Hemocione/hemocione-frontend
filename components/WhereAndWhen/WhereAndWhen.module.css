@@ -114,4 +114,8 @@
   .month {
     font-size: 2em;
   }
+
+  .contentContainer {
+    flex-direction: column;
+  }
 }
