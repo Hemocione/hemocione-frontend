@@ -1,3 +1,4 @@
+import Head from 'next/head'
 import {
   Footer,
   Navbar
@@ -6,9 +7,14 @@ import {
 const Layout = ({ children }) => {
   return (
     <div>
-      <Navbar />
-      {children}
-      <Footer />
+      <Head>
+        <title>Hemocione</title>
+      </Head>
+      <div>
+        <Navbar />
+        {children}
+        <Footer />
+      </div>
     </div>
   );
 }
