@@ -1,0 +1,16 @@
+.title {
+  font-size: 4.5em;
+  color: #353535;
+}
+
+.red {
+  color: #EC1C24;
+}
+
+@media screen and (max-width: 768px) {
+  .title {
+    text-align: center;
+    margin-left: 0;
+    font-size: 4em;
+  }
+}
