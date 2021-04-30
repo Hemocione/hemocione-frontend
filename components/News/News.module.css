@@ -1,0 +1,36 @@
+.newsContainer {
+  max-width: 90%;
+  flex: 0 0 20%;
+  display: flex;
+  flex-direction: column;
+  margin: 2em;
+}
+
+.newsContentContainer {
+  margin-bottom: 2em;
+}
+
+.divider {
+  color: rgba(53, 53, 53, 1);
+  opacity: 0.5;
+  height: 1px;
+  width: 100%;
+  margin-bottom: 0;
+}
+
+.title {
+  padding-top: 5px;
+  color: #353535;
+  font-size: 2em;
+}
+
+.date {
+  margin: 0;
+  margin-top: 2px;
+  color: #353535;
+}
+
+.text {
+  color: #353535;
+  text-align: justify;
+}
