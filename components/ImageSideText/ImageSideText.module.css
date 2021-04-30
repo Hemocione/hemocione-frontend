@@ -1,0 +1,23 @@
+.container {
+  flex-wrap: wrap;
+  margin-bottom: 5em;
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.textContainer {
+  width: 100%;
+  flex: 0 0 50%;
+  color: #353535;
+  padding: 2em;
+  font-size: 1.3em;
+  line-height: 1.5em;
+  text-align: justify;
+}
+
+.image {
+  flex: 0 0 50%;
+  max-width: 100%;
+}
