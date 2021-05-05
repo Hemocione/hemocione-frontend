@@ -1,10 +1,12 @@
+import styles from './Who.module.css'
+
 import {
   WhoWeAre
 } from '../../components'
 
 const Who = () => {
   return (
-    <div>
+    <div className={styles.who}>
       <WhoWeAre />
     </div>
   )
