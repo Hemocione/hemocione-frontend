@@ -5,7 +5,7 @@ import {
 
 const News = ({img, title, date, text, link, image_at_bottom}) => {
   return (
-    <div className={styles.newsContainer}>
+    <div key={link} className={styles.newsContainer}>
       {image_at_bottom ? null : <img src={img} alt={title} className={styles.image} />}
       <div className={styles.newsContentContainer}>
         <h3 className={styles.title}>

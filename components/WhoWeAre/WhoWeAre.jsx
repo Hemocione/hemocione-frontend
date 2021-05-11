@@ -33,8 +33,7 @@ const WhoWeAre = () => {
     <div className={styles.container}>
       <PageTitle blackTitle="Quem " redTitle="Somos?" />
       <div className={styles.contentContainer}>
-        {content.map((element, index) => {
-          console.log(index);
+        {content.map((element, index, ...rest) => {
           return (
             <ImageSideText img={element.img} textSections={element.textSections} index={index} key={index} />
           )
