@@ -1,0 +1,10 @@
+.baseCard {
+  background-image: url("/whoweare/team/redCard.svg");
+  margin-top: 2em;
+  height: 352px;
+  width: 352px;
+}
+
+.baseCard:hover {
+  background-image: url("/whoweare/team/whiteCard.svg");
+}
