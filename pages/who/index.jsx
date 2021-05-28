@@ -8,8 +8,8 @@ import {
 const Who = () => {
   return (
     <div className={styles.who}>
-      <WhoWeAre />
       <Team />
+      <WhoWeAre />
     </div>
   )
 }

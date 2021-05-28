@@ -8,37 +8,37 @@ const team = [
   {
     name: "Thiago Guimarães",
     role: "Diretor de Tecnologia",
-    img: ""
+    img: "/whoweare/team/guima.png"
   },
   {
     name: "Vitor Pinheiro",
     role: "Presidente",
-    img: ""
+    img: "/whoweare/team/guima.png"
   },
   {
     name: "Otávio Trindade",
     role: "Diretor de Comunicação",
-    img: ""
+    img: "/whoweare/team/guima.png"
   },
   {
     name: "Lucas Pitta",
     role: "Líder de backend",
-    img: ""
+    img: "/whoweare/team/guima.png"
   },
   {
     name: "Gabriel Pireda",
     role: "Líder de Frontend",
-    img: ""
+    img: "/whoweare/team/guima.png"
   },
   {
     name: "Parangs",
     role: "Diretor de Tudo",
-    img: ""
+    img: "/whoweare/team/guima.png"
   },
   {
     name: "Dudu Rosa",
-    role: "Líder de web design",
-    img: ""
+    role: "Criativo",
+    img: "/whoweare/team/guima.png"
   },
 ]
 

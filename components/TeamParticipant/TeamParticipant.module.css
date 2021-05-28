@@ -1,10 +1,42 @@
-.baseCard {
-  background-image: url("/whoweare/team/redCard.svg");
+.container {
   margin-top: 2em;
+  height: 500px;
+}
+
+.card {
   height: 352px;
   width: 352px;
 }
 
-.baseCard:hover {
-  background-image: url("/whoweare/team/whiteCard.svg");
+.card:hover {
+  opacity: 0.9;
+  cursor: pointer;
+}
+
+.card:active {
+  animation-name: spin;
+  animation-duration: 0.3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.displayNone {
+  display: none;
+}
+
+.name {
+  font-weight: bold;
+}
+
+.userText {
+  text-align: center;
+}
+
+@keyframes spin {
+  from {
+      transform:rotate(0deg);
+  }
+  to {
+      transform:rotate(360deg);
+  }
 }
