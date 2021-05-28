@@ -9,7 +9,7 @@
 }
 
 .card:hover {
-  opacity: 0.9;
+  opacity: 0.75;
   cursor: pointer;
 }
 
