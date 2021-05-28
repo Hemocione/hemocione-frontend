@@ -4,6 +4,7 @@
   background-position: center;
   background-size: cover;
   color: #FFFFFF;
+  margin-top:  min(100px, 19vh);
 }
 
 .bannerInfoContainer {
@@ -13,7 +14,6 @@
   height: inherit;
   width: 40%;
   margin-left: 10%;
-  padding-top: 3em;
 }
 
 .title {
@@ -25,37 +25,14 @@
 }
 
 .headliner {
-  margin-top: 1px;
-  margin-bottom: 1px;
-  background-color: #EC1C24;
-  padding: 15px;
+  margin-top: 2em;
   font-size: 3em;
-}
-
-.detailsContainer {
-  display: flex;
-  margin-bottom: 10px;
-  overflow: hidden;
-}
-
-.detailsText {
-  width: 70%;
-  font-size: 1em;
-  background-color: #EC1C24;
-  padding: 15px;
-  margin-top: 1px;
-  margin-right: 1px;
-  margin-bottom: 0;
 }
 
 @media screen and (max-width: 1100px) {
   .banner {
     height: 50vh;
     background-position: right;
-  }
-
-  .detailsText {
-    display: None;
   }
 
   .title {
@@ -72,10 +49,6 @@
 }
 
 @media screen and (max-width: 768px) and (orientation: landscape) {
-  .detailsText {
-    display: None;
-  }
-
   .title {
     font-size: 2em;
   }

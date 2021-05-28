@@ -1,10 +1,10 @@
 .loginItemsContainer {
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-around;
   position: relative;
   padding: 5px;
   width: 20%;
+  max-height: 70%;
   align-items: center;
   text-align: center;
 }
