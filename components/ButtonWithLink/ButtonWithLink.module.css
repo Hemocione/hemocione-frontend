@@ -6,6 +6,8 @@
   color: #FFFFFF;
   border: none;
   align-self: center;
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.42, 0, 0.58, 1);
 }
 
 .button:hover {
