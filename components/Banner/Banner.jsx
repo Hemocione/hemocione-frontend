@@ -1,7 +1,4 @@
 import styles from './Banner.module.css'
-import {
-  KnowMoreButton
-} from '..'
 
 const Banner = ({img, startTitle, redTitle, endTitle, headliner}) => {
   return (

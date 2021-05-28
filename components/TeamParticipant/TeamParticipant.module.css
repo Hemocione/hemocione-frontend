@@ -4,8 +4,8 @@
 }
 
 .card {
-  height: 352px;
-  width: 352px;
+  height: min(352px, 90vw);
+  width: min(352px, 90vw);
 }
 
 .card:hover {
@@ -15,7 +15,7 @@
 
 .card:active {
   animation-name: spin;
-  animation-duration: 0.3s;
+  animation-duration: 250ms;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
 }
