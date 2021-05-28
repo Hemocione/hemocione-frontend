@@ -1,0 +1,20 @@
+.menuText {
+  color: #FFFFFF;
+  font-family: "Inter";
+  font-size: 1em;
+  letter-spacing: 0;
+  text-align: center;
+}
+
+.menuItem {
+  display: inline;
+  position: relative;
+  list-style-type: none;
+  margin: 5px;
+  padding: 0;
+  flex: 1 1 0px;
+}
+
+.menuText:hover {
+  color: #EC1C24
+}

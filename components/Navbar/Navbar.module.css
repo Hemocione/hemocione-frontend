@@ -1,0 +1,16 @@
+.header {
+  z-index: 1;
+  position: fixed;
+  top: 0;
+  height: 105px;
+  width: 100%;
+  background: rgba(0, 0, 0, .78);
+  display: flex;
+  justify-content: space-around;
+}
+
+.headerTitle {
+  margin-top: 37.5px;
+  margin-bottom: 37.5px;
+  max-width: 40%;
+}

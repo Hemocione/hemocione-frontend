@@ -1,0 +1,13 @@
+.button {
+  height: 3em;
+  background-color: #91151A;
+  font-size: 1em;
+  width: 8em;
+  color: #FFFFFF;
+  border: none;
+  align-self: center;
+}
+
+.button:hover {
+  background-color: #D1151A;
+}
