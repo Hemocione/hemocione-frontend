@@ -1,0 +1,38 @@
+.hemocionewsContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 2em
+}
+
+.title {
+  margin-left: 50px;
+  font-size: 4.5em;
+  color: #000000;
+  word-wrap: break-word;
+}
+
+.red {
+  font-weight: bold;
+  color: #EC1C24;
+}
+
+.thin {
+  font-style: italic;
+  font-weight: 500;
+}
+
+.contentContainer {
+  margin-top: 2em;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 768px) {
+  .title {
+    text-align: center;
+    margin-left: 0;
+    font-size: 4em;
+  }
+}
