@@ -6,39 +6,19 @@ import {
 
 const team = [
   {
+    name: "Vitor Pinheiro",
+    role: "Presidente",
+    img: "/whoweare/team/pinha.png"
+  },
+  {
     name: "Thiago Guimarães",
     role: "Diretor de Tecnologia",
     img: "/whoweare/team/guima.png"
   },
   {
-    name: "Vitor Pinheiro",
-    role: "Presidente",
-    img: "/whoweare/team/guima.png"
-  },
-  {
-    name: "Otávio Trindade",
-    role: "Diretor de Comunicação",
-    img: "/whoweare/team/guima.png"
-  },
-  {
-    name: "Lucas Pitta",
-    role: "Líder de backend",
-    img: "/whoweare/team/guima.png"
-  },
-  {
-    name: "Gabriel Pireda",
-    role: "Líder de Frontend",
-    img: "/whoweare/team/guima.png"
-  },
-  {
-    name: "Parangs",
-    role: "Diretor de Tudo",
-    img: "/whoweare/team/guima.png"
-  },
-  {
-    name: "Dudu Rosa",
-    role: "Criativo",
-    img: "/whoweare/team/guima.png"
+    name: "Beatriz Pareto",
+    role: "Gerente de Operações",
+    img: "/whoweare/team/biapareto.png"
   },
 ]
 
