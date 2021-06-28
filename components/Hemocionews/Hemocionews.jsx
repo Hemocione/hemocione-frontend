@@ -43,7 +43,7 @@ const Hemocionews = () => {
       </h2>
       <div className={styles.contentContainer}>
         {news.map(({img, title, date, text, link, image_at_bottom, ...rest}) => (
-          <News img={img} title={title} date={date} text={text} link={link} image_at_bottom={image_at_bottom} /> 
+          <News img={img} title={title} date={date} text={text} link={link} key={link} image_at_bottom={image_at_bottom} /> 
         ))}
       </div>
     </div>

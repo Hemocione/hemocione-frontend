@@ -9,7 +9,7 @@ const Navbar = () => {
     <nav className={styles.header}>
       <img src='/title.svg' alt='Hemocione' className={styles.headerTitle} />
       <MenuItems />
-      <LoginItems />
+      {/* <LoginItems /> */}
     </nav>
   );
 }

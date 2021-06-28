@@ -1,0 +1,42 @@
+.container {
+  margin-top: 2em;
+  height: 500px;
+}
+
+.card {
+  height: min(352px, 90vw);
+  width: min(352px, 90vw);
+}
+
+.card:hover {
+  opacity: 0.75;
+  cursor: pointer;
+}
+
+.card:active {
+  animation-name: spin;
+  animation-duration: 250ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.displayNone {
+  display: none;
+}
+
+.name {
+  font-weight: bold;
+}
+
+.userText {
+  text-align: center;
+}
+
+@keyframes spin {
+  from {
+      transform:rotate(0deg);
+  }
+  to {
+      transform:rotate(360deg);
+  }
+}

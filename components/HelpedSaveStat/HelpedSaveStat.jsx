@@ -1,8 +1,9 @@
 import styles from './HelpedSaveStat.module.css'
 
-const HelpedSaveStat = ({number, text}) => {
+const HelpedSaveStat = ({img, number, text}) => {
   return (
     <li className={styles.statContainer}>
+      <img src={img} />
       <h2 className={styles.number}>
         {number}
       </h2>

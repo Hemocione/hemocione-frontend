@@ -1,14 +1,17 @@
 .statContainer {
   flex: 0 0 33.333333%;
-  padding: 5px
+  padding: 5px;
+  margin-bottom: 10em;
 }
 
 .number {
   font-size: 6em;
+  color: #C6171E
 }
 
 .text {
   font-size: 2em;
+  color: #353535
 }
 
 @media screen and (max-width: 768px) and (orientation: portrait) {
