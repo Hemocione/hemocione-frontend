@@ -20,6 +20,36 @@ const team = [
     role: "Gerente de Operações",
     img: "/whoweare/team/biapareto.png"
   },
+  {
+    name: "Giuliana Costa",
+    role: "Coordenadora de Marketing e Audiovisual",
+    img: "/whoweare/team/giuliana.png"
+  },
+  {
+    name: "Ana Luiza Brito",
+    role: "Diretora de Operações",
+    img: "/whoweare/team/anabrito.png"
+  },
+  {
+    name: "Otávio Trindade",
+    role: "Diretor de Comunicação",
+    img: "/whoweare/team/otavio.png"
+  },
+  {
+    name: "Maria Joana Pinheiro",
+    role: "Membra estagiária",
+    img: "/whoweare/team/juba.png"
+  },
+  {
+    name: "Elisa Lidy",
+    role: "Diretora Comercial e Promoter",
+    img: "/whoweare/team/elisa.png"
+  },
+  {
+    name: "Ana Helena Nascif",
+    role: "Diretora Jurídica",
+    img: "/whoweare/team/anahelena.png"
+  }
 ]
 
 const Team = () => {
