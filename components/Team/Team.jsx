@@ -37,18 +37,23 @@ const team = [
   },
   {
     name: "Maria Joana Pinheiro",
-    role: "Membra estagiária",
+    role: "Estagiária de Redes Sociais",
     img: "/whoweare/team/juba.png"
   },
   {
     name: "Elisa Lidy",
-    role: "Diretora Comercial e Promoter",
+    role: "Diretora Comercial",
     img: "/whoweare/team/elisa.png"
   },
   {
     name: "Ana Helena Nascif",
     role: "Diretora Jurídica",
     img: "/whoweare/team/anahelena.png"
+  },
+  {
+    name: "Rafaella Montuori",
+    role: "Designer",
+    img: "/whoweare/team/rafamontuori.png"
   }
 ]
 
