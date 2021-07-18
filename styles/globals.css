@@ -1,10 +1,13 @@
+@import url("./colors.css");
+
 html,
 body {
   padding: 0;
   margin: 0;
-  background-color: #FFFFFF;
-  font-family: -apple-system, "Inter", BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background-color: #ffffff;
+  font-size: 16px;
+  font-family: -apple-system, "Inter", BlinkMacSystemFont, Segoe UI, Roboto,
+    Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
 a {
@@ -15,7 +18,10 @@ a {
   border: 0;
 }
 
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
   margin: 0;
   padding: 0;
 }
@@ -24,6 +30,10 @@ h1, h2, h3, h4 {
   box-sizing: border-box;
 }
 
-ul, ol, li {
+ul,
+ol,
+li {
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
