@@ -1,0 +1,29 @@
+.footer {
+  font-size: 1.1rem;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.contacts {
+  display: inherit;
+  flex-direction: column;
+  margin: 20px 0;
+}
+
+.contact {
+  line-height: 40px;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.footer .contact::after {
+  content: ": ";
+}
+
+.links {
+  display: inline-flex;
+  justify-content: space-evenly;
+  width: 100%;
+  font-size: 1.1rem;
+}

@@ -1,0 +1,41 @@
+.dismiss-button {
+  height: 20px;
+  width: 20px;
+  margin: 0;
+  padding: 0;
+  border: none;
+  background: transparent;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.dismiss-button > * {
+  display: none;
+}
+
+.dismiss-button:before,
+.dismiss-button:after {
+  position: absolute;
+  content: " ";
+  height: 100%;
+  width: 100%;
+  width: 2.5px;
+  background: var(--color-white);
+}
+
+.dismiss-button:before {
+  transform: rotate(45deg);
+}
+
+.dismiss-button:after {
+  transform: rotate(-45deg);
+}
+
+.sign-up-and-login {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 32px;
+  font-size: 0.9em;
+}
