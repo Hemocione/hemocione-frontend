@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="47px" height="49px" viewBox="0 0 47 49" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>E7E7D619-D885-4B55-ABCE-D38F4067EB81@2x</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="46" height="46"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Duvidas-Frequentes" transform="translate(-1831.000000, -28.000000)">
+            <g id="menu-/-hamburger" transform="translate(1831.316895, 28.500000)">
+                <g>
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="menu-/-hamburger-(Background/Mask)"></g>
+                    <path d="M5.75,11.5 L40.25,11.5 L40.25,15.3333333 L5.75,15.3333333 L5.75,11.5 Z M40.25,24.9166667 L40.25,21.0833333 L5.75,21.0833333 L5.75,24.9166667 L40.25,24.9166667 Z M40.25,34.5 L40.25,30.6666667 L5.75,30.6666667 L5.75,34.5 L40.25,34.5 Z" fill="#FFFFFF" mask="url(#mask-2)"></path>
+                </g>
+                <circle id="Oval" fill="#FFFFFF" cx="5.72357178" cy="13.4163513" r="1.91000366"></circle>
+                <circle id="Oval-Copy-3" fill="#FFFFFF" cx="40.0448608" cy="13.4163513" r="1.91000366"></circle>
+                <circle id="Oval-Copy" fill="#FFFFFF" cx="5.72357178" cy="23" r="1.91000366"></circle>
+                <circle id="Oval-Copy-4" fill="#FFFFFF" cx="40.0448608" cy="23" r="1.91000366"></circle>
+                <circle id="Oval-Copy-2" fill="#FFFFFF" cx="5.72357178" cy="32.5836487" r="1.91000366"></circle>
+                <circle id="Oval-Copy-5" fill="#FFFFFF" cx="40.0448608" cy="32.5836487" r="1.91000366"></circle>
+            </g>
+        </g>
+    </g>
+</svg>
