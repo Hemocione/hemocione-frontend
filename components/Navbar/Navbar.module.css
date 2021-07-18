@@ -4,9 +4,10 @@
   top: 0;
   height: min(105px, 20vh);
   width: 100%;
-  background: rgba(0, 0, 0);
+  background: var(--color-black);
   display: flex;
   justify-content: space-around;
+  align-items: center;
 }
 
 .headerTitle {
