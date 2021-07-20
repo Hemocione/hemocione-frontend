@@ -2,6 +2,8 @@
   "name": "hemocione-frontend",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://github.com/Hemocione/hemocione-frontend#readme",
+  "license": "MIT",
   "scripts": {
     "dev": "next dev -p 3005",
     "build": "next build",
@@ -21,5 +23,26 @@
     "eslint-plugin-react": "^7.24.0",
     "eslint-plugin-react-hooks": "^4.2.0",
     "prettier": "2.3.2"
+  },
+  "bugs": {
+    "url": "https://github.com/Hemocione/hemocione-frontend/issues",
+    "email": "guimaraes@hemocione.com.br"
+  },
+  "contributors": [
+    {
+      "email": "gabriel.pireda@hemocione.com.br",
+      "name": "Gabriel Pireda"
+    },
+    {
+      "email": "guimaraes@hemocione.com.br",
+      "name": "Thiago Guimarães"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Hemocione/hemocione-frontend"
+  },
+  "engines": {
+    "node": ">=14.17.3 <=16.5.0"
   }
 }
