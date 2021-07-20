@@ -1,7 +1,8 @@
 import Link from 'next/link'
+import PropTypes from 'prop-types'
 import styles from './MenuItem.module.css'
 
-const MenuItem = ({link, text, external}) => {
+const MenuItem = ({ external, link, text }) => {
   if (external) {
     return (
       <li className={styles.menuItem}>
@@ -18,7 +19,13 @@ const MenuItem = ({link, text, external}) => {
         <span className={styles.menuText}>{text}</span>
       </Link>
     </li>
-  );
+  )
+}
+
+MenuItem.propTypes = {
+  external: PropTypes.bool,
+  link: PropTypes.string.isRequired,
+  text: PropTypes.string.isRequired,
 }
 
 export default MenuItem
