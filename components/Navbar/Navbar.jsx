@@ -1,17 +1,13 @@
-import { 
-  MenuItems,
-  LoginItems } from '..'
-import React from 'react';
+import React from 'react'
+import { MenuItems } from '..'
 import styles from './Navbar.module.css'
 
-const Navbar = () => {
-  return (
-    <nav className={styles.header}>
-      <img src='/title.svg' alt='Hemocione' className={styles.headerTitle} />
-      <MenuItems />
-      {/* <LoginItems /> */}
-    </nav>
-  );
-}
+const Navbar = () => (
+  <nav className={styles.header}>
+    <img alt='Hemocione' className={styles.headerTitle} src='/title.svg' />
+    <MenuItems />
+    {/* <LoginItems /> */}
+  </nav>
+)
 
 export default Navbar
