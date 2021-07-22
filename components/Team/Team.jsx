@@ -1,73 +1,68 @@
+import { PageTitle, TeamParticipant } from '..'
 import styles from './Team.module.css'
-import {
-  PageTitle,
-  TeamParticipant
-} from '..'
 
 const team = [
   {
-    name: "Vitor Pinheiro",
-    role: "Presidente",
-    img: "/whoweare/team/pinha.png"
+    img: '/whoweare/team/pinha.png',
+    name: 'Vitor Pinheiro',
+    role: 'Presidente',
   },
   {
-    name: "Thiago Guimarães",
-    role: "Diretor de Tecnologia",
-    img: "/whoweare/team/guima.png"
+    img: '/whoweare/team/guima.png',
+    name: 'Thiago Guimarães',
+    role: 'Diretor de Tecnologia',
   },
   {
-    name: "Beatriz Pareto",
-    role: "Gerente de Operações",
-    img: "/whoweare/team/biapareto.png"
+    img: '/whoweare/team/biapareto.png',
+    name: 'Beatriz Pareto',
+    role: 'Gerente de Operações',
   },
   {
-    name: "Giuliana Costa",
-    role: "Coordenadora de Marketing e Audiovisual",
-    img: "/whoweare/team/giuliana.png"
+    img: '/whoweare/team/giuliana.png',
+    name: 'Giuliana Costa',
+    role: 'Coordenadora de Marketing e Audiovisual',
   },
   {
-    name: "Ana Luiza Brito",
-    role: "Diretora de Operações",
-    img: "/whoweare/team/anabrito.png"
+    img: '/whoweare/team/anabrito.png',
+    name: 'Ana Luiza Brito',
+    role: 'Diretora de Operações',
   },
   {
-    name: "Otávio Trindade",
-    role: "Diretor de Comunicação",
-    img: "/whoweare/team/otavio.png"
+    img: '/whoweare/team/otavio.png',
+    name: 'Otávio Trindade',
+    role: 'Diretor de Comunicação',
   },
   {
-    name: "Maria Joana Pinheiro",
-    role: "Estagiária de Redes Sociais",
-    img: "/whoweare/team/juba.png"
+    img: '/whoweare/team/juba.png',
+    name: 'Maria Joana Pinheiro',
+    role: 'Estagiária de Redes Sociais',
   },
   {
-    name: "Elisa Lidy",
-    role: "Diretora Comercial",
-    img: "/whoweare/team/elisa.png"
+    img: '/whoweare/team/elisa.png',
+    name: 'Elisa Lidy',
+    role: 'Diretora Comercial',
   },
   {
-    name: "Ana Helena Nascif",
-    role: "Diretora Jurídica",
-    img: "/whoweare/team/anahelena.png"
+    img: '/whoweare/team/anahelena.png',
+    name: 'Ana Helena Nascif',
+    role: 'Diretora Jurídica',
   },
   {
-    name: "Rafaella Montuori",
-    role: "Designer",
-    img: "/whoweare/team/rafamontuori.png"
-  }
+    img: '/whoweare/team/rafamontuori.png',
+    name: 'Rafaella Montuori',
+    role: 'Designer',
+  },
 ]
 
-const Team = () => {
-  return (
-    <div className={styles.container}>
-      <PageTitle blackTitle={"Descubra o Nosso "} redTitle={"Time"} />
-      <div className={styles.teamContainer}>
-        {team.map(({name, role, img, ...rest}) => (
-          <TeamParticipant name={name} role={role} img={img} />
-        ))}
-      </div>
+const Team = () => (
+  <div className={styles.container}>
+    <PageTitle blackTitle='Descubra o Nosso ' redTitle='Time' />
+    <div className={styles.teamContainer}>
+      {team.map(({ name, role, img }) => (
+        <TeamParticipant img={img} name={name} role={role} />
+      ))}
     </div>
-  )
-}
+  </div>
+)
 
 export default Team

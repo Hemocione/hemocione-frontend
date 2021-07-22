@@ -1,23 +1,20 @@
-import {
-  HelpedSave,
-  Supporters,
-  WhereAndWhen,
-  SpeakDonator,
-  Hemocionews,
-  Banner
-} from '../components'
+import { Banner, HelpedSave, SpeakDonator, Supporters, WhereAndWhen } from '../components'
 
-const Home = () => {
-  return (
-    <div>
-      <Banner img="/bannerVitor.png" startTitle='VAMOS ' redTitle='HEMO' endTitle="CIONAR JUNTOS!" headliner="Vamos encher essa bolsa juntos!" />
-      <HelpedSave />
-      <WhereAndWhen />
-      <SpeakDonator />
-      {/* <Hemocionews /> */}
-      <Supporters />
-    </div>
-  )
-}
+const Home = () => (
+  <div>
+    <Banner
+      endTitle='CIONAR JUNTOS!'
+      headliner='Vamos encher essa bolsa juntos!'
+      img='/bannerVitor.png'
+      redTitle='HEMO'
+      startTitle='VAMOS '
+    />
+    <HelpedSave />
+    <WhereAndWhen />
+    <SpeakDonator />
+    {/* <Hemocionews /> */}
+    <Supporters />
+  </div>
+)
 
 export default Home
