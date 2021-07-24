@@ -8,7 +8,7 @@
     "dev": "next dev -p 3005",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint \"**/*.{js,jsx,json}\" --fix",
+    "lint": "eslint \"**/*.{js,jsx}\" --fix",
     "test": "jest",
     "test:watch": "jest --watch",
     "test:coverage": "jest --coverage"
