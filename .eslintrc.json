@@ -1,7 +1,8 @@
 {
   "env": {
     "browser": true,
-    "es2021": true
+    "es2021": true,
+    "jest": true
   },
   "extends": ["plugin:react/recommended", "airbnb", "prettier"],
   "parserOptions": {
@@ -19,5 +20,12 @@
     "react/react-in-jsx-scope": "off",
     "react/require-default-props": "off",
     "sort-keys": "error"
+  },
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "paths": ["."]
+      }
+    }
   }
 }
