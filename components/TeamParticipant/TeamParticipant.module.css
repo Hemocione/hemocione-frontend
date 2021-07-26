@@ -4,8 +4,8 @@
 }
 
 .card {
-  height: min(352px, 90vw);
-  width: min(352px, 90vw);
+  height: min(300px, 50vw);
+  width: min(300px, 50vw);
 }
 
 .card:hover {
