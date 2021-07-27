@@ -25,7 +25,7 @@ const WhereAndWhen = () => {
 
   return (
     <div className={styles.whereContainer}>
-      <h2 className={styles.title}>{/* Onde e<a className={styles.red}>{' Quando'}</a> */}</h2>
+      <h2 className={styles.title}>Onde e<span className={styles.red}>{' Quando'}</span></h2>
       <div className={styles.contentContainer}>
         <div className={styles.eventControlContainer}>
           {eventIndex === 0 ? null : (
