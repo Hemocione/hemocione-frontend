@@ -3,7 +3,7 @@
   position: fixed;
   top: 0;
   height: min(105px, 20vh);
-  width: 100%;
+  width: 100vw;
   background: rgba(0, 0, 0);
   display: flex;
   justify-content: space-around;
