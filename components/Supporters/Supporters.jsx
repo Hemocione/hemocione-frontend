@@ -9,8 +9,13 @@ const supporters = [
   },
   {
     description: 'Mattos Filho',
-    key: 'mattos_fisslho',
+    key: 'mattos_filho',
     src: '/supporters/mattosfilho.png',
+  },
+  {
+    description: 'Castro e Soares Contadores',
+    key: 'castro_soares_contadores',
+    src: '/supporters/contadores.png',
   }
 ]
 
