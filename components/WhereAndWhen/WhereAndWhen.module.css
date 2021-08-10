@@ -69,6 +69,7 @@
   margin-bottom: 2em;
   flex: 0 0 50%;
   display: flex;
+  align-items: start;
   flex-direction: column;
 }
 
@@ -116,5 +117,9 @@
 
   .contentContainer {
     flex-direction: column;
+  }
+
+  .eventDetailsContainer {
+    align-items: center;
   }
 }

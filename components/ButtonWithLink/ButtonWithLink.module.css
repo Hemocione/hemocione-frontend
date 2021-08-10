@@ -5,6 +5,7 @@
   width: 8em;
   color: #FFFFFF;
   border: none;
+  border-radius: 5px;
   align-self: center;
   cursor: pointer;
   transition: all 0.3s cubic-bezier(0.42, 0, 0.58, 1);
