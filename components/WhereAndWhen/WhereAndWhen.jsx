@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import styles from './WhereAndWhen.module.css'
+import { ButtonWithLink } from '../../components'
 
 const nextEvents = [
   {
@@ -9,6 +10,7 @@ const nextEvents = [
     month: 'Agosto',
     subtitle: '10:00 às 16:00',
     text: 'Nosso primeiro evento no Colégio Santo Inácio já tem data! Convidamos os alunos, ex-alunos, responsáveis e funcionários para se (h)emocionarem com a gente!',
+    external_url: 'https://www.even3.com.br/hcsi2021/'
   },
   {
     address: 'Rua José Linhares, 88',
@@ -17,6 +19,7 @@ const nextEvents = [
     month: 'Outubro',
     subtitle: '10:00 às 16:00',
     text: 'Mais do que conhecido para os agostinianos, o Hemocione promove um evento pela quarta vez no CSA - Leblon! Esperamos vocês nesse feriado para doarem sangue e salvarem 4 vidas!',
+    external_url: 'https://www.even3.com.br/hcsa2021/'
   },
 ]
 
@@ -59,6 +62,9 @@ const WhereAndWhen = () => {
           <h4 className={styles.subtitle}>{nextEvents[eventIndex].subtitle}</h4>
           <p className={styles.text}>{nextEvents[eventIndex].text}</p>
           <hr className={styles.divider} />
+          <div>
+            <ButtonWithLink link={nextEvents[eventIndex].external_url} text='Quero ir!' />
+          </div>
         </div>
       </div>
     </div>

@@ -3,30 +3,20 @@ import styles from './Supporters.module.css'
 
 const supporters = [
   {
-    description: 'Vercel Logo',
-    key: 'papito',
-    src: '/supporters/papito.svg',
+    description: 'Colégio Cruzeiro',
+    key: 'colegio_cruzeiro',
+    src: '/supporters/colegiocruzeiro.png',
   },
   {
-    description: 'papit 2 Logo',
-    key: 'papito2',
-    src: '/supporters/papito2.svg',
+    description: 'Mattos Filho',
+    key: 'mattos_filho',
+    src: '/supporters/mattosfilho.png',
   },
   {
-    description: 'op Logo',
-    key: 'papito3',
-    src: '/supporters/papito3.svg',
-  },
-  {
-    description: 'pip Logo',
-    key: 'parangole',
-    src: '/supporters/parangole.svg',
-  },
-  {
-    description: 'pap Logo',
-    key: 'parangs',
-    src: '/supporters/parangs.svg',
-  },
+    description: 'Castro e Soares Contadores',
+    key: 'castro_soares_contadores',
+    src: '/supporters/contadores.png',
+  }
 ]
 
 const Supporters = () => (
@@ -35,7 +25,7 @@ const Supporters = () => (
       <h2 className={styles.supportersTitle}>Apoiadores</h2>
       <div className={styles.githubHelp}>
         <h3 className={styles.helpText}>Quer ajudar?</h3>
-        <ImageWithLink imagePath='/github.svg' link='https://github.com/Hemocione' />
+        <ImageWithLink description="Github" imagePath='/github.svg' link='https://github.com/Hemocione' />
       </div>
     </div>
     <div className={styles.supportersImagesContainer}>

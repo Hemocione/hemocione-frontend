@@ -19,9 +19,9 @@ const SpeakDonator = () => (
   <div className={styles.speakDonatorContainer}>
     <h2 className={styles.title}>
       Fala
-      {/* <a className={styles.red}>
+      <a className={styles.red}>
         {' Doador'}
-      </a> */}
+      </a>
     </h2>
     <div className={styles.videosContainer}>
       {videosInfo.map(({ link, key }) => (
