@@ -4,15 +4,6 @@ import { ButtonWithLink } from '../../components'
 
 const nextEvents = [
   {
-    address: 'Rua São Clemente, 226',
-    day: '13',
-    location: 'Colégio Santo Inácio',
-    month: 'Agosto',
-    subtitle: '10:00 às 16:00',
-    text: 'Nosso primeiro evento no Colégio Santo Inácio já tem data! Convidamos os alunos, ex-alunos, responsáveis e funcionários para se (h)emocionarem com a gente!',
-    external_url: 'https://www.even3.com.br/hcsi2021/'
-  },
-  {
     address: 'Rua José Linhares, 88',
     day: '15',
     location: 'Colégio Santo Agostinho - Leblon',
