@@ -1,25 +1,25 @@
 import { useState } from 'react'
 import styles from './WhereAndWhen.module.css'
-import { ButtonWithLink } from '../../components'
+import { ButtonWithLink } from '..'
 
 const nextEvents = [
   {
     address: 'Rua São Clemente, 226',
     day: '13',
+    external_url: 'https://www.even3.com.br/hcsi2021/',
     location: 'Colégio Santo Inácio',
     month: 'Agosto',
     subtitle: '10:00 às 16:00',
     text: 'Nosso primeiro evento no Colégio Santo Inácio já tem data! Convidamos os alunos, ex-alunos, responsáveis e funcionários para se (h)emocionarem com a gente!',
-    external_url: 'https://www.even3.com.br/hcsi2021/'
   },
   {
     address: 'Rua José Linhares, 88',
     day: '15',
+    external_url: 'https://www.even3.com.br/hcsa2021/',
     location: 'Colégio Santo Agostinho - Leblon',
     month: 'Outubro',
     subtitle: '10:00 às 16:00',
     text: 'Mais do que conhecido para os agostinianos, o Hemocione promove um evento pela quarta vez no CSA - Leblon! Esperamos vocês nesse feriado para doarem sangue e salvarem 4 vidas!',
-    external_url: 'https://www.even3.com.br/hcsa2021/'
   },
 ]
 
@@ -28,7 +28,9 @@ const WhereAndWhen = () => {
 
   return (
     <div className={styles.whereContainer}>
-      <h2 className={styles.title}>Onde e<span className={styles.red}>{' Quando'}</span></h2>
+      <h2 className={styles.title}>
+        Onde e<span className={styles.red}>{' Quando'}</span>
+      </h2>
       <div className={styles.contentContainer}>
         <div className={styles.eventControlContainer}>
           {eventIndex === 0 ? null : (
