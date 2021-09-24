@@ -1,6 +1,7 @@
 import PropTypes from 'prop-types'
 import { Layout } from '../components'
 import '../styles/globals.css'
+import '../styles/dimensions.css'
 
 /* eslint-disable react/jsx-props-no-spreading */
 const MyApp = ({ Component, pageProps }) => (

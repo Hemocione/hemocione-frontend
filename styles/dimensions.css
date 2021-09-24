@@ -1,0 +1,4 @@
+:root {
+  --navbar-height: 105px;
+  --footer-height: calc(10vw + 30px + 188px);
+}
