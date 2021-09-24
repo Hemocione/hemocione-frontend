@@ -12,7 +12,6 @@ const Home = () => (
     <HelpedSave />
     <WhereAndWhen />
     <SpeakDonator />
-    {/* <Hemocionews /> */}
     <Supporters />
   </div>
 )
