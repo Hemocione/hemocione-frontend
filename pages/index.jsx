@@ -1,4 +1,4 @@
-import { Banner, HelpedSave, SpeakDonator, Supporters, WhereAndWhen } from '../components'
+import { Banner, HelpedSave, SpeakDonator, Supporters, WhereAndWhen, BloodBankMap } from '../components'
 
 const Home = () => (
   <div>
@@ -10,7 +10,8 @@ const Home = () => (
       startTitle='VAMOS '
     />
     <HelpedSave />
-    <WhereAndWhen />
+    {/* <WhereAndWhen /> */}
+    <BloodBankMap />
     <SpeakDonator />
     <Supporters />
   </div>
