@@ -2,7 +2,7 @@ import { FooterContacts, FooterMenu } from '..'
 import styles from './Footer.module.css'
 
 const Footer = () => (
-  <footer className={styles.footerContainer}>
+  <footer>
     <div className={styles.hills} />
     <div className={styles.footerContentContainer}>
       <div className={styles.footerLeftContainer}>

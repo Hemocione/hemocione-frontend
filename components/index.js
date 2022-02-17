@@ -24,3 +24,5 @@ export { default as PageTitle } from './PageTitle/PageTitle'
 export { default as ImageSideText } from './ImageSideText/ImageSideText'
 export { default as Team } from './Team/Team'
 export { default as TeamParticipant } from './TeamParticipant/TeamParticipant'
+export { default as BloodBankMap } from './BloodBankMap/BloodBankMap'
+
