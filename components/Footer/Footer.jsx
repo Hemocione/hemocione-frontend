@@ -1,12 +1,13 @@
 import { FooterContacts, FooterMenu } from '..'
 import styles from './Footer.module.css'
+import Image from 'next/image'
 
 const Footer = () => (
   <footer>
     <div className={styles.hills} />
     <div className={styles.footerContentContainer}>
       <div className={styles.footerLeftContainer}>
-        <img alt='Hemocione White Logo' className={styles.hemoLogo} src='/whiteLogo.svg' />
+        <Image alt='Hemocione White Logo' className={styles.hemoLogo} height={200} width={200} src='/whiteLogo.svg' />
         <FooterMenu />
       </div>
       <FooterContacts />

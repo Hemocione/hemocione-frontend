@@ -1,6 +1,7 @@
 import PropTypes from 'prop-types'
 import { useState } from 'react'
 import styles from './TeamParticipant.module.css'
+import Image from 'next/image'
 
 const TeamParticipant = ({ img, name, role }) => {
   const cardPath = '/whoweare/team/redCard.svg'
@@ -14,13 +15,15 @@ const TeamParticipant = ({ img, name, role }) => {
 
   return (
     <div className={styles.container}>
-      <img
+      <Image
         alt={name}
         className={styles.card}
+        height={300}
         onClick={handleClick}
         onKeyDown={handleClick}
         role='presentation'
         src={imgSrc}
+        width={300}
       />
       <div className={usingCard ? styles.displayNone : styles.userText}>
         <p className={styles.name}>{name}</p>
