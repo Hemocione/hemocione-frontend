@@ -16,7 +16,7 @@ const Footer = () => (
       <p>© 2021 Hemocione</p>
       <div className={styles.vercelContainer}>
         <p className={styles.poweredBy}>Powered by</p>
-        <Image alt='Vercel Logo' height={50} width={50} className={styles.vercelLogo} src='/vercel.svg' />
+        <img alt='Vercel Logo' className={styles.vercelLogo} src='/vercel.svg' />
       </div>
       <p>Created by Hemocione</p>
     </div>
