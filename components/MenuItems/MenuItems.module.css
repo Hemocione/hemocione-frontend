@@ -1,15 +1,15 @@
 .menu {
-    display: flex;
-    position: relative;
-    padding: 5px;
-    width: 15%;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
+  display: flex;
+  position: relative;
+  padding: 20px;
+  width: 20%;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
 }
 
 @media screen and (max-width: 768px) {
-    .menu {
-        display: none;
-    }
+  .menu {
+    display: none;
+  }
 }
