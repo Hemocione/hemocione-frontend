@@ -1,6 +1,8 @@
+import PropTypes from 'prop-types'
 import { Banner, HelpedSave, SpeakDonator, Supporters, WhereAndWhen, BloodBankMap } from '../components'
+import { getSheetsData } from '../utils/spreadsheets'
 
-const Home = () => (
+const Home = ({ sheets }) => (
   <div>
     <Banner
       endTitle='CIONAR JUNTOS!'
@@ -9,12 +11,21 @@ const Home = () => (
       redTitle='HEMO'
       startTitle='VAMOS '
     />
-    <HelpedSave />
+    <HelpedSave bigNumbers={sheets.bigNumbers} />
     {/* <WhereAndWhen /> */}
     <BloodBankMap />
-    <SpeakDonator />
+    <SpeakDonator videos={sheets.speakDonator} />
     <Supporters />
   </div>
 )
+
+Home.propTypes = {
+  sheets: PropTypes.isRequired
+}
+
+export const getStaticProps = async () => {
+  const sheetsData = await getSheetsData()
+  return { props: { sheets: sheetsData }, revalidate: 43200 }
+}
 
 export default Home
