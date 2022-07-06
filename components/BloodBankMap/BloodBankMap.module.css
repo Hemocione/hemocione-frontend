@@ -21,3 +21,10 @@
 .red {
   color: #EC1C24;
 }
+
+.poweredBy {
+  width: 90%;
+  text-align: right;
+  margin-top: 0.2em;
+  font-size: 0.7em;
+}
