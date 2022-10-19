@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types'
 import { useState } from 'react'
-import styles from './TeamParticipant.module.css'
 import Image from 'next/image'
+import styles from './TeamParticipant.module.css'
 
 const TeamParticipant = ({ img, name, role }) => {
   const cardPath = '/whoweare/team/redCard.svg'

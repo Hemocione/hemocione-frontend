@@ -20,7 +20,6 @@ const nextEvents = [
     month: 'Outubro',
     subtitle: '10:00 às 16:00',
     text: 'Mais do que conhecido para os agostinianos, o Hemocione promove um evento pela quarta vez no CSA - Leblon! Esperamos vocês nesse feriado para doarem sangue e salvarem 4 vidas!',
-    external_url: 'https://www.even3.com.br/hcsa2021/'
   },
 ]
 

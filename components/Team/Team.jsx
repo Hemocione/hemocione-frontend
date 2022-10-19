@@ -13,11 +13,6 @@ const team = [
     role: 'Diretor de Tecnologia',
   },
   {
-    img: '/whoweare/team/anabrito.png',
-    name: 'Ana Luiza Brito',
-    role: 'Diretora de Operações',
-  },
-  {
     img: '/whoweare/team/otavio.png',
     name: 'Otávio Trindade',
     role: 'Diretor de Comunicação',
@@ -30,38 +25,13 @@ const team = [
   {
     img: '/whoweare/team/anahelena.png',
     name: 'Ana Helena Nascif',
-    role: 'Responsável Jurídica',
+    role: 'Diretora Jurídica',
   },
   {
     img: '/whoweare/team/biapareto.png',
     name: 'Beatriz Pareto',
-    role: 'Gerente de Operações',
+    role: 'Diretora de Operações',
   },
-  {
-    img: '/whoweare/team/giuliana.png',
-    name: 'Giuliana Costa',
-    role: 'Coordenadora de Marketing e Audiovisual',
-  },
-  {
-    img: '/whoweare/team/rafamontuori.png',
-    name: 'Rafaella Montuori',
-    role: 'Designer',
-  },
-  {
-    img: '/whoweare/team/juba.png',
-    name: 'Maria Joana Pinheiro',
-    role: 'Estagiária de Redes Sociais (Instagram)',
-  },
-  {
-    img: '/whoweare/team/jacintho.png',
-    name: 'João Pedro Jacintho',
-    role: 'Estagiário de Redes Sociais (Twitter)',
-  },
-  {
-    img: '/whoweare/team/amandamussi.png',
-    name: 'Amanda Mussi',
-    role: 'Voluntária - Fotografia e Redação',
-  }
 ]
 
 const Team = () => (
