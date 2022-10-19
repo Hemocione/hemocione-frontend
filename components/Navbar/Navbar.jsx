@@ -1,10 +1,16 @@
+import Image from 'next/image'
 import { MenuItems } from '..'
 import styles from './Navbar.module.css'
-import Image from 'next/image'
 
 const Navbar = () => (
   <nav className={styles.header}>
-    <Image alt='Hemocione' width={300} height={200} className={styles.headerTitle} src='/title.svg' />
+    <Image
+      alt='Hemocione'
+      className={styles.headerTitle}
+      height={200}
+      src='/title.svg'
+      width={300}
+    />
     <MenuItems />
     {/* <LoginItems /> */}
   </nav>

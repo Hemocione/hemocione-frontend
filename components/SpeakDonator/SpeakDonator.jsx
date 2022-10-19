@@ -9,8 +9,14 @@ const SpeakDonator = ({ videos }) => (
       <span className={styles.red}>{' Doador'}</span>
     </h2>
     <div className={styles.videosContainer}>
-      {videos.map((url, index) => (
-        <iframe key={index} allowFullScreen className={styles.youtubeVideo} src={url} title={index} />
+      {videos.map(url => (
+        <iframe
+          key={url}
+          allowFullScreen
+          className={styles.youtubeVideo}
+          src={url}
+          title={`Youtube video from url ${url}`}
+        />
       ))}
     </div>
     <div className={styles.buttonContainer}>
@@ -23,7 +29,7 @@ const SpeakDonator = ({ videos }) => (
 )
 
 SpeakDonator.propTypes = {
-  videos: PropTypes.isRequired
+  videos: PropTypes.isRequired,
 }
 
 export default SpeakDonator

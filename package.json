@@ -15,9 +15,9 @@
   },
   "dependencies": {
     "google-spreadsheet": "^3.2.0",
-    "next": "10.1.3",
-    "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "next": "^12.3.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
     "@testing-library/dom": "^8.1.0",
@@ -40,7 +40,7 @@
   },
   "bugs": {
     "url": "https://github.com/Hemocione/hemocione-frontend/issues",
-    "email": "guimaraes@hemocione.com.br"
+    "email": "guima@hemocione.com.br"
   },
   "contributors": [
     {
@@ -48,7 +48,7 @@
       "name": "Gabriel Pireda"
     },
     {
-      "email": "guimaraes@hemocione.com.br",
+      "email": "guima@hemocione.com.br",
       "name": "Thiago Guimarães"
     }
   ],
@@ -57,6 +57,6 @@
     "url": "https://github.com/Hemocione/hemocione-frontend"
   },
   "engines": {
-    "node": ">=14.17.3 <=16.5.0"
+    "node": ">=14.17.3 <=16.16.0"
   }
 }
