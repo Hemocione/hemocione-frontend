@@ -6,7 +6,6 @@ const Home = ({ sheets }) => (
   <div>
     <Banner
       endTitle='CIONAR JUNTOS!'
-      headliner='Vamos encher essa bolsa juntos!'
       img='/bannerVitor.png'
       redTitle='HEMO'
       startTitle='VAMOS '
