@@ -3,7 +3,7 @@ import styles from './BloodBankMap.module.css'
 
 const BloodBankMap = () => (
   <div className={styles.container}>
-    <h2 id='ondedoar' className={styles.title}>
+    <h2 className={styles.title} id='ondedoar'>
       <a href='#ondedoar' title='Permalink para mapa de doação de sangue'>
         Doe<span className={styles.red}>{' aqui'}</span>
       </a>
