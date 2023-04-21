@@ -16,7 +16,12 @@ const supporters = [
     description: 'Castro e Soares Contadores',
     key: 'castro_soares_contadores',
     src: '/supporters/contadores.png',
-  }
+  },
+  {
+    description: 'Maria Açaí - Urca',
+    key: 'maria_acai_urca',
+    src: '/supporters/mariaacai.png',
+  },
 ]
 
 const Supporters = () => (
@@ -25,7 +30,11 @@ const Supporters = () => (
       <h2 className={styles.supportersTitle}>Apoiadores</h2>
       <div className={styles.githubHelp}>
         <h3 className={styles.helpText}>Quer ajudar?</h3>
-        <ImageWithLink description="Github" imagePath='/github.svg' link='https://github.com/Hemocione' />
+        <ImageWithLink
+          description='Github'
+          imagePath='/github.svg'
+          link='https://github.com/Hemocione'
+        />
       </div>
     </div>
     <div className={styles.supportersImagesContainer}>
