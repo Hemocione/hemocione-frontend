@@ -1,9 +1,9 @@
-import { Team, WhoWeAre } from '../../components'
+import { WhoWeAre } from '../../components'
 import styles from './Who.module.css'
 
 const Who = () => (
   <div className={styles.who}>
-    <Team />
+    {/* <Team /> */}
     <WhoWeAre />
   </div>
 )
