@@ -4,7 +4,7 @@ import { getSheetsData } from '../utils/spreadsheets'
 
 const Home = ({ sheets }) => (
   <div>
-    <Banner endTitle='CIONAR JUNTOS!' img='/bannerVitor.png' redTitle='HEMO' startTitle='VAMOS ' />
+    <Banner endTitle='CIONAR JUNTOS!' img='https://cdn.hemocione.com.br/bannerVitor.png' redTitle='HEMO' startTitle='VAMOS ' />
     <HelpedSave bigNumbers={sheets.bigNumbers} />
     {/* <WhereAndWhen /> */}
     <BloodBankMap />
