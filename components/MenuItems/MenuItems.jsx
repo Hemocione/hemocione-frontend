@@ -7,7 +7,7 @@ const MenuItems = () => (
     <MenuItem link='/who' text='Quem Somos' />
     {/* <MenuItem external link='https://loja.hemocione.com.br/' text='Loja' /> */}
     <MenuItem external link='https://eventos.hemocione.com.br' text='Eventos' />
-    <MenuItem external link={process.env.NEXT_PUBLIC_COMPETITIONS} text='Competições' />
+    {/* <MenuItem external link={process.env.NEXT_PUBLIC_COMPETITIONS} text='Competições' /> */}
   </ul>
 )
 
