@@ -3,18 +3,14 @@ import Image from 'next/image'
 import styles from './ApoieModal.module.css'
 
 const ApoieModal = () => {
-  const [showModal, setShowModal] = useState(false);
+  const [showModal, setShowModal] = useState(true);
 
   useEffect(() => {
-    if(!localStorage.getItem('alreadyShownApoieModal')) {
-      setShowModal(true);
-      document.body.style.overflow = 'hidden';
-    }
+    if(showModal) document.body.style.overflow = 'hidden';
   })
 
   function closeModal() {
     setShowModal(false);
-    localStorage.setItem('alreadyShownApoieModal', 'true');
     document.body.style.overflow = 'auto';
   }
 
