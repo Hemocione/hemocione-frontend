@@ -8,12 +8,14 @@ const ApoieModal = () => {
   useEffect(() => {
     if(!localStorage.getItem('alreadyShownApoieModal')) {
       setShowModal(true);
+      document.body.style.overflow = 'hidden';
     }
   })
 
   function closeModal() {
     setShowModal(false);
     localStorage.setItem('alreadyShownApoieModal', 'true');
+    document.body.style.overflow = 'auto';
   }
 
   if(!showModal) return null;
