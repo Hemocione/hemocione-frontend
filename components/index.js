@@ -25,4 +25,4 @@ export { default as ImageSideText } from './ImageSideText/ImageSideText'
 export { default as Team } from './Team/Team'
 export { default as TeamParticipant } from './TeamParticipant/TeamParticipant'
 export { default as BloodBankMap } from './BloodBankMap/BloodBankMap'
-
+export { default as ApoieModal } from './ApoieModal/ApoieModal'

@@ -1,0 +1,66 @@
+.modal {
+  border: none !important;
+  border-radius: calc(5px * var(--ratio));
+  max-width: 50%;
+  width: 100%;
+  height: fit-content;
+  border-radius: 8px;
+  overflow: hidden;
+  position: relative;
+}
+
+.modal img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px 8px 0 0;
+  object-fit: cover;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  z-index: 1000;
+  background-color: rgba(0, 0, 0, 0.5);
+  top: 0;
+  left: 0;
+  cursor: pointer;
+}
+
+.close {
+  position: absolute;
+  top: 0.5em;
+  right: 0.5em;
+  color: white;
+  font-size: 1.25em;
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 0.9em;
+  border-radius: 100%;
+  width: 1.25em;
+  height: 1.25em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.close:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+@media screen and (max-width: 1100px) {
+  .modal {
+    max-width: 75%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .modal {
+    max-width: 95%;
+  }
+  .close {
+    display: none;
+  }
+}
